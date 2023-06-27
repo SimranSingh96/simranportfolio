@@ -1,0 +1,188 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(13, 13, 33);
+  /* rgb(0, 0, 33) */
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+
+  height: 100px;
+}
+
+.left {
+  padding-top: 10px;
+}
+.left img {
+  width: 100%;
+  height: 200%;
+  margin-top: -50px;
+}
+
+.navbar ul {
+  display: flex;
+  margin-top: 12px;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 10px 0px 0px 40px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li a:hover {
+  cursor: pointer;
+  color: rgb(170, 170, 240);
+  /* border: 0.1px solid white; */
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 23px;
+  align-items: center;
+}
+
+.first-section > div {
+  width: 30%;
+}
+
+.left-section {
+  font-size: 2rem;
+}
+
+/* .resume {
+  background-color: #1e2167;
+  border: solid 2px white;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+  padding: 7px;
+} */
+
+.right-section img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.purple {
+  color: rgb(135, 27, 135);
+}
+
+#element {
+  color: rgb(151, 151, 235);
+}
+
+.second-section {
+  max-width: 80vw;
+
+  margin: auto;
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1px;
+  margin: 90px 20px;
+}
+
+.second-section span h1 {
+  text-align: center;
+  /* background-color: red; */
+}
+
+.about-me-container {
+  display: flex;
+  /* background-color: orange; */
+}
+
+.about-logo img {
+  width: 70%;
+
+  /* background-color: blue; */
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.intro {
+  width: 90%;
+  padding-top: 50px;
+  margin-top: 70px;
+  /* background-color: red; */
+}
+
+.third-section {
+  display: flex;
+
+  height: 70px;
+}
+
+.third-section p {
+  margin-left: 20%;
+  margin-top: 15px;
+}
+
+.tech-logos {
+  margin-left: 10%;
+  width: 50%;
+}
+.tech-logos ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.tech-logos ul li {
+  height: 200px;
+  width: 200px;
+}
+.img-1 img {
+  width: 30%;
+  height: 30%;
+}
+
+.img-2 img {
+  width: 30%;
+  height: 30%;
+}
+
+.img-3 img {
+  width: 25%;
+  height: 25%;
+  margin-top: 8px;
+}
+
+.img-4 img {
+  width: 40%;
+  margin-top: 8px;
+}
+.img-5 img {
+  width: 28%;
+  height: 28%;
+  margin-top: 8px;
+}
+
+footer {
+  background-color: #0e0e1a;
+}
+
+.footer {
+  display: flex;
+  padding: 23px 122px;
+}
+.first-footer img {
+  height: 25%;
+  width: 25%;
+  /* background-color: red; */
+}
